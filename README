@@ -1,0 +1,19 @@
+a. Name: Chen Xi
+
+b. ID: 1606293145
+
+c. Write client to set TCP connection with AWS in file servers.
+	and then AWS send received data to Server A, B, C also in servers.c through UDP packets.
+
+e. First, open a terminal type "make all".
+    Next, type "make servers" (because I used fork() in my code), 
+    Then in another terminal type "./client sum ", "./client sos", "./client max", "./client min" respectively. Node: The nums.csv file should be in the same folder as Client.c and sercers.c
+
+f. From client to AWS, it is integer array. 
+   Between AWS and ServerA,B,C, it is String/Char array
+   From AWS back to client, it is String/Char array
+
+g. I did not find and fail situations so far. If you type ./client XXXX, I print a message to correct the input. I use 'int' to calculate, if the sum or sos > 2^32, the result may be incorrect.
+
+h. No I did not.
+
